@@ -1,0 +1,575 @@
+intro:
+  ptId:
+    - What is the patient ID number provided to you?
+    - 1
+  clinDate:
+    - What is the name of the medical care provider the patient is seeing today?
+    - 1
+  careName:
+    - What is your first name?
+    - 1
+  careRelate:
+    - What is your relationship to the patient?
+    - 2
+    - Wife/husband/significant other: 0
+      Son: 1
+      Daughter: 2
+      Son-in-law: 3
+      Daughter-in-law: 4
+      Other family member: 5
+      Friend: 6
+      Other: 7
+  careFreq:
+    - How often do you see him or her?
+    - 2
+    - Less than once per month: 0
+      Once per month: 1
+      Once every two weeks: 2
+      Once a week: 3
+      2-3 days per week: 4
+      4-6 days per week: 5
+      Every day: 6
+  careHr:
+    - On average, how many hours per week do you spend with him or her?
+    - 2
+    - Less than one: 0
+      1 to 3 hours: 1
+      3 to 6 hours: 2
+      6 to 12 hours: 3
+      12 to 20 hours: 4
+      20 to 30 hours: 5
+      30 to 40 hours: 6
+      Over 40 hours a week: 7
+  careSex:
+    - What is your gender?
+    - 2
+    - Male: 0
+      Female: 1
+      Other: 2
+  ptSex:
+    - How does the person for whom the appointment was made refer to their gender?
+    - 2
+    - Male: 0
+      Female: 1
+      Other: 2
+  careYr:
+    - How many years have you known the patient?
+    - 1
+  careAge:
+    - How old are you, the person filling this form? Please answer in years.
+    - 1
+  careRace:
+    - How do you refer to your race? (one or more categories may be selected)
+    - 4
+    - American Indian or Alaska Native: 0
+      Black or African American: 1
+      White or Caucasian: 2
+      Asian Indian: 3
+      Chinese: 4
+      Filipino: 5
+      Japanese: 6
+      Korean: 7
+      Other Asian: 8
+      Native Hawaiian: 9
+      Guamanian or Chamorro: 10
+      Samoan: 11
+      Other Pacific Islander: 12
+      Unknown: 13
+      Other: 14
+      Prefer not to answer: 15
+  careEth:
+    - Are you of Hispanic, Latino/a, or Spanish origin? (one or more categories may
+      be selected)
+    - 4
+    - Mexican: 0
+      Mexican American: 1
+      Chicano/a: 2
+      Puerto Rican: 3
+      Cuban: 4
+      Unknown: 5
+      Other Hispanic, Latino/a, or Spanish origin: 6
+      Not of Hispanic, Latino/a, or Spanish origin: 7
+      Prefer not to answer: 8
+medhx:
+  probList:
+    - Has the patient ever had any of the following medical problems? Please click
+      all that apply.
+    - 4
+    - obstructive sleep apnea: 0
+      head injury: 1
+      seizure: 2
+      stroke: 3
+      learning disability: 4
+      movement disorder: 5
+      transient ischemic attack: 6
+      depression: 7
+      anxiety: 8
+      attention deficit disorder: 9
+      bipolar disorder: 10
+      heart disease: 11
+      high blood pressure: 12
+      high cholesterol: 13
+      schizophrenia: 14
+      other neurological disease: 15
+      other psychiatric disease: 16
+      cancer: 17
+      diabetes: 18
+      myocardial infarction: 19
+      congestive heart failure: 20
+      atrial fibrillation: 21
+      angina: 22
+      B12 deficiency: 23
+      thyroid disease: 24
+      arthritis: 25
+      'carotid procedure: angioplasty, endarterectomy or stent': 26
+      'percutaneous coronary intervention: angioplasty and/or stent': 27
+      pacemaker and/or defibrillator: 28
+      heart valve replacement or repair: 29
+      antibody-mediated encephalopathy: 30
+      dyslexia: 31
+      autism: 32
+      none of the above: 33
+  probSpeed:
+    - How quickly have the main problems that bring you to our clinic worsened? Please
+      select any of th...
+    - 4
+    - There has been no worsening: 0
+      Worsened slowly for more than two years: 1
+      Worsened over months to two years: 2
+      Worsened over a week to a few months: 3
+      Worsened over a few days to a week: 4
+      Worsened in more than an hour, but less than a day: 5
+      Worsened within an hour or less: 6
+  rapidWorsen:
+    - Has the patient rapidly gotten worse within the last two weeks?
+    - 3
+  sigFluxYN:
+    - How great is the difference between the worst period of function and the best
+      period of function...
+    - 2
+    - no difference (no impact on daily functioning): 0
+      a slight difference (only a mild impact on daily functioning): 1
+      a moderate difference (a clear impact on daily functioning): 2
+      a large difference (a severe impact on daily functioning): 3
+      a very large difference (a very severe impact on daily functioning): 4
+behavioral:
+  npiq:
+    - behDel: 'Delusions: Does the patient have false beliefs, such as thinking that
+        others are stealing from him/her or planning to harm him/her in some way?'
+      behHal: 'Hallucinations: Does the patient have hallucinations such as false
+        visions or voices? Does he or she seem to hear or see things that are not
+        present?'
+      behAgit: 'Agitation or Aggression: Is the patient resistive to help from others
+        at times, or hard to handle?'
+      behDepress: 'Depression or Dysphoria: Does the patient seem sad or say that
+        he/she is depressed?'
+      behAnx: 'Anxiety: Does the patient become upset when separated from you? Does
+        he/she have any other signs of nervousness such as shortness of breath, sighing,
+        being unable to relax, or feeling excessively tense?'
+      behEuphoria: 'Elation/Euphoria: Does the patient appear to feel too good or
+        act excessively happy?'
+      behApathy: 'Apathy/Indifference: Does the patient seem less interested in his/her
+        usual activities or in the activities and plans of others? Is there less interest
+        in hobbies/activities?'
+      behDisinhibit: "Disinhibition: Does the patient seem to act impulsively, of\
+        \ example, talking to strangers as if he/she knows them, or saying things\
+        \ that may hurt people's feelings?"
+      behIrritable: 'Irritability/Lability: Is the patient impatient and cranky? Does
+        he/she have difficulty coping with delays or waiting for planned activities?'
+      behMotorDis: Motor Disturbance; Does the patient engage in repetitive activities
+        such as pacing around the house, handling buttons, wrapping string, or doing
+        other things repeatedly?
+      behNightProb: 'Nighttime Behaviors: Does the patient awaken you during the night,
+        rise too early in the morning, or take excessive naps during the day?'
+      behEatChange: 'Appetite/Eating: Has the patient lost or gained weight, or had
+        a change in the type of food he/she likes?'
+    - 5
+    - npiqNone: &id001
+        - Not present
+        - 0
+      npiqMild:
+        - Present, and mild (noticeable, but not a significant change)
+        - 1
+      npiqMod:
+        - Present, and moderate (significant, but not a dramatic change)
+        - 2
+      npiqSev:
+        - Severe (very marked or prominent; a dramatic change)
+        - 3
+  behEmoLabile:
+    - Has the patient been more emotional than usual, for example laughing or crying
+      more easily?
+    - 3
+  behPassiveSI:
+    - Has the patient ever wished he/she were dead or wished he/she could go to sleep
+      and not wake up?
+    - 3
+  behActSI:
+    - Has the patient ever actually had any thoughts of killing him/herself?
+    - 3
+  behHygieneChange:
+    - Have there been any change in personal hygiene?
+    - 3
+  behViolent:
+    - Has the patient ever been threatening or physically violent, or had serious
+      thoughts of harming o...
+    - 3
+functional:
+  FAQ:
+    - FAQcheck: Writing checks, paying bills, or balancing a checkbook
+      FAQtax: Assembling tax records, business affairs, or other papers
+      FAQshop: Shopping alone for clothes, household necessities, or groceries
+      FAQhobby: Playing a game of skill such as bridge or chess, working on a hobby
+      FAQheat: Heating water, making a cup of coffee, turning off the stove
+      FAQmeal: Preparing a balanced meal
+      FAQnews: Keeping track of current events
+      FAQmedia: Paying attention to and understanding a TV program, book or magazine
+      FAQremember: Remembering appointments, family occasions, holidays, medications
+      FAQtransit: Traveling out of the neighborhood, driving, or arranging to take
+        public transportation.
+    - 5
+    - FAQna:
+        - Not applicable (e.g. never did)
+        - 0
+      FAQnl:
+        - Normal
+        - 0
+      FAQmild:
+        - Has difficulty, but does by self
+        - 1
+      FAQmod:
+        - Requires Assistance
+        - 2
+      FAQsev:
+        - Dependent on others
+        - 3
+      FAQdk:
+        - Unknown
+        - 0
+  ADL:
+    - adlEat: Eating
+      adlToilet: Toileting
+      adlBath: Bathing (sponge, shower, or tub)
+      adlDress: Dressing
+      adlGroom: Grooming (combing, shampooing hair, shaving, trimming nails)
+      adlTransfer: Transferring
+    - 5
+    - adlNone:
+        - Needs no assistance or supervision
+        - 0
+      adlMod:
+        - Needs some assistance of supervision
+        - 1
+      adlSev:
+        - Totally dependent / cannot do at all.
+        - 2
+  adlDrive:
+    - Is he/she driving now? Answer yes if he/she drives at all, even if rarely or
+      short distances.
+    - 3
+  adlMVA:
+    - Has the patient had any driving accidents?
+    - 3
+  adlHomeSafe:
+    - Have there been any safety concerns at home, such as leaving water running,
+      leaving doors unlocke...
+    - 3
+  DSRSmem:
+    - MEMORY
+    - 2
+    - 0 - Normal memory: 0
+      1 - Occasionally forgets things that they were told recently. Does not cause many problems.: 1
+      2 - Mild consistent forgetfulness. Remembers recent events but often forgets parts.: 2
+      ? 3 - Moderate memory loss. Worse for recent events. May not remember something
+        you just told them. Causes problems with everyday activities.
+      : 3
+      ? 4 - Substantial memory loss. Quickly forgets recent or newly-learned things.
+        Can only remember things that they have known for a long time.
+      : 4
+      5 - Does not remember basic facts like the day of the week, when last meal was eaten or what the next meal will be.: 5
+      6 - Does not remember even the most basic things.: 6
+  DSRSlang:
+    - SPEECH AND LANGUAGE
+    - 2
+    - 0 - Normal ability to talk and to understand others.: 0
+      1 - Sometimes cannot find a word, but able to carry on conversations.: 1
+      2 - Often forgets words. may use the wrong word in its place. Some trouble expressing thoughts and giving answers.: 2
+      3 - Usually answers questions using sentences but rarely starts a conversation.: 3
+      ? 4 - Answers questions, but responses are often hard to understand or don't
+        make sense. Usually able to follow simple instructions.
+      : 4
+      5 - Speech often does not make sense. Cannot answer questions or follow instructions.: 5
+      6 - Does not respond most of the time.: 6
+  DSRSrecog:
+    - RECOGNITION OF FAMILY MEMBERS
+    - 2
+    - 0 - Normal. Recognizes people and generally knows who they are.: 0
+      ? 1 - Usually recognizes grandchildren, cousins or relatives who are not seen
+        frequently but may not recall how they are related.
+      : 1
+      ? 2 - Usually does not recognize family members who are not seen frequently.
+        Is often confused about how family members such as grandchildren, nieces,
+        or nephews are related to them.
+      : 2
+      ? 3 - Sometimes does not recognize close family members or others who they see
+        frequently. May not recognize their children, brothers, or sisters who are
+        not seen on a regular basis.
+      : 3
+      4 - Frequently does not recognize spouse or caregiver.: 4
+      5 - No recognition or awareness of the presence of others.: 5
+  DSRSorientTime:
+    - ORIENTATION TO TIME
+    - 2
+    - 0 - Normal awareness of time of day and day of week.: 0
+      ? 1 - Some confusion about what time it is or what day of the week, but not
+        severe enough to interfere with everyday activities.
+      : 1
+      2 - Frequently confused about time of day.: 2
+      3 - Almost always confused about time of day.: 3
+      4 - Seems completely unaware of time.: 4
+  DSRSorientPlace:
+    - ORIENTATION TO PLACE
+    - 2
+    - 0 - Normal awareness of where they are even in new places.: 0
+      1 - Sometimes disoriented in new places.: 1
+      2 - Frequently disoriented in new places.: 2
+      3 - Usually disoriented, even in familiar places. May forget that they are already at home.: 3
+      4 - Almost always confused about place: 4
+  DSRSdecision:
+    - ABILITY TO MAKE DECISIONS
+    - 2
+    - 0 - Normal - as able to make decisions as before.: 0
+      1 - Only some difficulty making decisions that arise in day-to-day life.: 1
+      2 - Moderate difficulty. Gets confused when things get complicated or plans change.: 2
+      3 - Rarely makes any important decisions. Gets confused easily.: 3
+      4 - Not able to understand what is happening most of the time.: 4
+  DSRSsoc:
+    - SOCIAL AND COMMUNITY ACTIVITY
+    - 2
+    - 0 - Normal - acts the same with people as before: 0
+      1 - Only mild problems that are not really important, but clearly acts differently from previous years.: 1
+      2 - Can still take part in community activities without help. May appear normal to people who don't know them.: 2
+      ? 3 - Often has trouble dealing with people outside the home without help from
+        caregiver. Usually can participate in quiet home activities with friends.
+        The problem is clear to anyone who sees them.
+      : 3
+      ? 4 - No longer takes part in any real way in activities at home involving other
+        people. Can only deal with the primary caregiver.
+      : 4
+      5 - Little or no response even to primary caregiver.: 5
+  DSRShomeActiv:
+    - HOME ACTIVITIES AND RESPONSIBILITIES
+    - 2
+    - 0 - Normal. No decline in ability to do things around the house: 0
+      ? 1 - Some problems with home activities. May have more trouble with money management
+        (paying bills) and fixing things. Can still go to a store, cook or clean.
+        Still watches TV or reads a newspaper with interest and understanding.
+      : 1
+      ? 2 - Makes mistakes with easy tasks like going to a store, cooking or cleaning.
+        Losing interest in the newspaper, TV or radio. Often can't follow a long conversation
+        on a single topic.
+      : 2
+      ? 3 - Not able to shop, cook or clean without a lot of help. Does not understand
+        the newspaper or the TV. Cannot follow a conversation.
+      : 3
+      4 - No longer does any home-based activities.: 4
+  DSRSpersCare:
+    - PERSONAL CARE - CLEANLINESS
+    - 2
+    - 0 - Normal. Takes care of self as well as they used to.: 0
+      1 - Sometimes forgets to wash, shave, comb hair, or may dress in wrong type of clothes. Not as neat as they used to be.: 1
+      2 - Requires help with dressing, washing and personal grooming.: 2
+      3 - Totally dependent on help for personal care.: 3
+  DSRSeating:
+    - EATING
+    - 2
+    - 0 - Normal, does not need help in eating food that is served to them.: 0
+      1 - May need help cutting food or have trouble with some foods, but basically able to eat by themselves.: 1
+      2 - Generally able to feed themselves but may require some help. May lose interest during the meal.: 2
+      3 - Needs to be fed. May have trouble swallowing.: 3
+  DSRSurin:
+    - CONTROL OF URINATION AND BOWELS
+    - 2
+    - 0 - Normal - does not have problems controlling urination or bowels except for physical problems.: 0
+      1 - Rarely fails to control urination (generally less than one accident per month).: 1
+      2 - Occasional failure to control urination (about once a week or less).: 2
+      3 - Frequently fails to control urination (more than once a week).: 3
+      4 - Generally fails to control urination and frequently can not control bowels.: 4
+  DSRSabilityPlace:
+    - ABILITY TO GET FROM PLACE TO PLACE
+    - 2
+    - 0 - Normal, able to get around on their own. (May have physical problems that require a cane or walker).: 0
+      ? 1 - Sometimes gets confused when driving or taking public transportation,
+        especially in new places. Able to walk places alone.
+      : 1
+      ? 2 - Cannot drive or take public transportation alone, even in familiar places.
+        Can walk alone outside for short distances. Might get lost if walking too
+        far from home.
+      : 2
+      3 - Cannot be left outside alone. Can get around the house without getting lost or confused.: 3
+      4 - Gets confused and needs help finding their way around the house.: 4
+      5 - Almost always in a bed or chair. May be able to walk a few steps with help, but lacks sense of direction.: 5
+      6 - Always in bed. Unable to sit or stand.: 6
+  gunHome:
+    - Are there guns in the home?
+    - 3
+  gunSecure:
+    - Are any guns or weapons safely stored?
+    - 3
+  wandering:
+    - Has there been any wandering or getting lost?
+    - 3
+  takingMeds:
+    - Are all medications being consistently taken as directed?
+    - 3
+  liveAlone:
+    - Does the patient live alone, or are they alone for a substantial proportion
+      of the day?
+    - 3
+  unsteadyFall:
+    - Has there been any unsteadiness or falling?
+    - 3
+  finMismanage:
+    - Has there been any financial mismanagement or examples of being taken advantage
+      of in schemes or...
+    - 3
+  choking:
+    - Over the last week, has the patient had problems swallowing pills or eating
+      meals?
+    - 3
+  hoarding:
+    - Is there any concern regarding clutter in the home or possible hoarding behavior?
+    - 3
+  hoardingsurvey:
+    - hoardingClutter: Because of the clutter or number of possessions, how difficult
+        is it for the patient to use the rooms in their home?
+      hoardingDiscard: To what extent does the patient have difficulty discarding
+        (or recycling, selling, giving away) ordinary things that other people would
+        get rid of?
+      hoardingCollecting: To what extent does the patient currently have a problem
+        with collecting free things or buying more things than they need or can use
+        or can afford?
+      hoardingEmoDistress: To what extent does the patient experience emotional distress
+        because of clutter, difficulty discarding or problems with buying or acquiring
+        things?
+      hoardingSocImpair: To what extent does the patient experience impairment in
+        his or her life (daily routine, job / school, social activities, family activities,
+        financial difficulties) because of clutter, difficulty discarding, or problems
+        with buying or acquiring things?
+    - 5
+    - hrd0:
+        - 'Not at all difficult: 0'
+        - 0
+      hrd1:
+        - '1'
+        - 1
+      hrd2:
+        - 'Mild: 2'
+        - 2
+      hrd3:
+        - '3'
+        - 3
+      hrd4:
+        - 'Moderate: 4'
+        - 3
+      hrd5:
+        - '5'
+        - 5
+      hrd6:
+        - 'Severe: 6'
+        - 6
+      hrd7:
+        - '7'
+        - 7
+      hrd8:
+        - 'Extremely Difficult: 8'
+        - 8
+caregiverstress:
+  zarit:
+    - careMeTime: That because of the time you spend with your relative that you don't
+        have enough time for yourself?
+      careStress: Stressed between caring for your relative and trying to meet other
+        responsibilities (work/family)?
+      careAnger: Angry when you are around your relative?
+      careRelative: That your relative currently affects your relationship with family
+        members or friends in a negative way?
+      careStrain: Strained when you are around your relative?
+      careHealth: That your health has suffered because of your involvement with your
+        relative?
+      carePrivacy: That you don't have as much privacy as you would like because of
+        your relative?
+      careSoc: That your social life has suffered because you are caring for your
+        relative?
+      careControl: That you have lost control of your life since your relative's illness?
+      careUncertain: Uncertain what to do about your relative?
+      careDoMore: You should be doing more for your relative?
+      careBetter: You could do a better job in caring for your relative?
+    - 5
+    - zaritNone:
+        - never
+        - 0
+      zaritMin:
+        - rarely
+        - 1
+      zaritMild:
+        - sometimes
+        - 2
+      zaritMod:
+        - quite frequently
+        - 3
+      zaritSev:
+        - nearly always
+        - 4
+  npiqCaregiver:
+    - npicareDelusion: 'Delusions: Does the patient have false beliefs, such as thinking
+        that others are stealing from him/her or planning to harm him/her in some
+        way?'
+      npicareHal: 'Hallucinations: Does the patient have hallucinations such as false
+        visions or voices? Does he or she seem to hear or see things that are not
+        present?'
+      npicareAgitate: 'Agitation or Aggression: Is the patient resistive to help from
+        others at times, or hard to handle?'
+      npicareDep: 'Depression or Dysphoria: Does the patient seem sad or say that
+        he/she is depressed?'
+      npicareAnx: Does the patient become upset when separated from you? Does he/she
+        have any other signs of nervousness such as shortness of breath, sighing,
+        being unable to relax, or feeling excessively tense?
+      npicareMania: Does the patient appear to feel too good or act excessively happy?
+      npicareApathy: Does the patient seem less interested in his/her usual activities
+        or in the activities and plans of others?
+      npicareImpulse: Does the patient seem to act impulsively, for example, talking
+        to strangers as if he/she knows them, or saying things that may hurt people's
+        feelings?
+      npicareIrrit: Is the patient impatient and cranky? Does he/she have difficulty
+        coping with delays or waiting for planned activities?
+      npicareRepAct: Does the patient engage in repetitive activities such as pacing
+        around the house, handling buttons, wrapping string, or doing other things
+        repeatedly?
+      npicareNocAct: Does the patient awaken you during the night, rise too early
+        in the morning, or take excessive naps during the day?
+      npicareAppChange: Has the patient lost or gained weight, or had a change in
+        the type of food he/she likes?
+    - 5
+    - npiCareNP: *id001
+      npiCareNone:
+        - not distressing at all
+        - 0
+      npiCareRare:
+        - minimal (slightly distressing, not a problem to cope with)
+        - 1
+      npiCareMild:
+        - mild (not very distressing, generally easy to cope with)
+        - 2
+      npiCareMod:
+        - moderate (fairly distressing, not always easy to cope with)
+        - 3
+      npiCareSev:
+        - severe (very distressing, difficult to cope with)
+        - 4
+      npiCareExt:
+        - extreme or very severe (extremely distressing, unable to cope with)
+        - 5
+outro:
+  needsAddressed:
+    - Please tell us about any other concerns you may want addressed during the visit.
+    - 1

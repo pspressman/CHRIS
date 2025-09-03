@@ -1,0 +1,1082 @@
+intro:
+  ptId:
+    - What is the patient ID number provided to you?
+    - 1
+  clinDate:
+    - What is the name of the medical care provider you are seeing today?
+    - 1
+  ptfillYN:
+    - We often recommend that someone other than the patient fill out this form. Examples
+      include a fri...
+    - 2
+    - The patient: 0
+      Not the patient, but someone who knows the patient well: 1
+  careName:
+    - What is your name?
+    - 1
+  careRelate:
+    - What is your relationship to the patient?
+    - 2
+    - Wife/husband/significant other: 0
+      Son: 1
+      Daughter: 2
+      Son-in-law: 3
+      Daughter-in-law: 4
+      Other family member: 5
+      Friend: 6
+      Other: 7
+  careFreq:
+    - How often do you see him or her?
+    - 2
+    - Less than once per month: 0
+      Once per month: 1
+      Once every two weeks: 2
+      Once a week: 3
+      2-3 days per week: 4
+      4-6 days per week: 5
+      Every day: 6
+  careHr:
+    - On average, how many hours per week do you spend with him or her?
+    - 2
+    - Less than one: 0
+      1 to 3 hours: 1
+      3 to 6 hours: 2
+      6 to 12 hours: 3
+      12 to 20 hours: 4
+      20 to 30 hours: 5
+      30 to 40 hours: 6
+      Over 40 hours a week: 7
+  careSex:
+    - What is your gender?
+    - 2
+    - Male: 0
+      Female: 1
+      Other: 2
+  careYr:
+    - How many years have you known the patient?
+    - 1
+  careAge:
+    - How old are you, the person filling this form? Please answer in years.
+    - 1
+  careRace:
+    - How do you refer to your race? (one or more categories may be selected)
+    - 4
+    - American Indian or Alaska Native: 0
+      Black or African American: 1
+      White or Caucasian: 2
+      Asian Indian: 3
+      Chinese: 4
+      Filipino: 5
+      Japanese: 6
+      Korean: 7
+      Other Asian: 8
+      Native Hawaiian: 9
+      Guamanian or Chamorro: 10
+      Samoan: 11
+      Other Pacific Islander: 12
+      Unknown: 13
+      Other: 14
+      Prefer not to answer: 15
+  careEth:
+    - Are you of Hispanic, Latino/a, or Spanish origin? (one or more categories may
+      be selected)
+    - 4
+    - Mexican: 0
+      Mexican American: 1
+      Chicano/a: 2
+      Puerto Rican: 3
+      Cuban: 4
+      Unknown: 5
+      Other Hispanic, Latino/a, or Spanish origin: 6
+      Not of Hispanic, Latino/a, or Spanish origin: 7
+      Prefer not to answer: 8
+demographics:
+  ptHand:
+    - Is the person for whom the appointment was made right-handed, left-handed, or
+      a bit of both?
+    - 2
+    - right-handed: 0
+      left-handed: 1
+      a bit of both: 2
+  ptHandDesc:
+    - Please briefly describe their handedness in words.
+    - 1
+  ptSex:
+    - How does the person for whom the appointment was made refer to their gender?
+    - 2
+    - Male: 0
+      Female: 1
+      Other: 2
+  ptRace:
+    - How does the patient refer to his/her race? (one or more categories may be selected)
+    - 4
+    - American Indian or Alaska Native: 0
+      Black or African American: 1
+      White or Caucasian: 2
+      Asian Indian: 3
+      Chinese: 4
+      Filipino: 5
+      Japanese: 6
+      Korean: 7
+      Other Asian: 8
+      Native Hawaiian: 9
+      Guamanian or Chamorro: 10
+      Samoan: 11
+      Other Pacific Islander: 12
+      Unknown: 13
+      Other: 14
+      Prefer not to answer: 15
+  ptEth:
+    - Is the patient of Hispanic, Latino/a, or Spanish origin? (one or more categories
+      may be selected)
+    - 4
+    - Mexican: 0
+      Mexican American: 1
+      Chicano/a: 2
+      Puerto Rican: 3
+      Cuban: 4
+      Unknown: 5
+      Other Hispanic, Latino/a, or Spanish origin: 6
+      Not of Hispanic, Latino/a, or Spanish origin: 7
+      Prefer not to answer: 8
+medhx:
+  probSpeed:
+    - How quickly have the problems worsened? Please select any of the following that
+      apply. For exampl...
+    - 4
+    - Worsened slowly for more two years: 0
+      Worsened over months to two years: 1
+      Worsened over a week to a few months: 2
+      Worsened over a few days to a week: 3
+      Worsened in more than an hour, but less than a day: 4
+      Worsened within an hour or less: 5
+  rapidWorsen:
+    - Has the patient rapidly gotten worse within the last two weeks?
+    - 3
+  sigFlux:
+    - How great is the difference between the worst period of function and the best
+      period of function...
+    - 2
+    - no difference (no impact on daily functioning): 0
+      a slight difference (only a mild impact on daily functioning): 1
+      a moderate difference (a clear impact on daily functioning): 2
+      a large difference (a severe impact on daily functioning): 3
+      a very large difference (a very severe impact on daily functioning): 4
+  staringSpells:
+    - In the last 6 months have there been three or more times where the patient has
+      had frequent stari...
+    - 3
+  illogicalThinking:
+    - In the last 6 months have there been three or more episodes of illogical thinking
+      or incoherent,...
+    - 3
+  probList:
+    - Has the patient ever had any of the following medical problems? Please click
+      all that apply.
+    - 4
+    - obstructive sleep apnea: 0
+      head injury: 1
+      seizure: 2
+      stroke: 3
+      learning disability: 4
+      movement disorder: 5
+      transient ischemic attack: 6
+      depression: 7
+      anxiety: 8
+      attention deficit disorder: 9
+      bipolar disorder: 10
+      heart disease: 11
+      high blood pressure: 12
+      high cholesterol: 13
+      schizophrenia: 14
+      other neurological disease: 15
+      other psychiatric disease: 16
+      cancer: 17
+      diabetes: 18
+      myocardial infarction: 19
+      congestive heart failure: 20
+      atrial fibrillation: 21
+      angina: 22
+      B12 deficiency: 23
+      thyroid disease: 24
+      arthritis: 25
+      'carotid procedure: angioplasty, endarterectomy or stent': 26
+      'percutaneous coronary intervention: angioplasty and/or stent': 27
+      pacemaker and/or defibrillator: 28
+      heart valve replacement or repair: 29
+      antibody-mediated encephalopathy: 30
+      dyslexia: 31
+      autism: 32
+      none of the above: 33
+  famProbList:
+    - Has anyone in the patient's family had the following problems? Please click
+      all that apply.
+    - 4
+    - obstructive sleep apnea: 0
+      head Injury: 1
+      seizure: 2
+      stroke: 3
+      learning disability: 4
+      movement disorder: 5
+      transient ischemic attack: 6
+      depression: 7
+      anxiety: 8
+      attention deficit disorder: 9
+      bipolar disorder: 10
+      heart disease: 11
+      high blood pressure: 12
+      high cholesterol: 13
+      schizophrenia: 14
+      other psychiatric disease: 15
+      other neurological disease: 16
+      cancer: 17
+      diabetes: 18
+      autoimmune disease: 19
+      arthritis: 20
+      dyslexia: 21
+      autism: 22
+      none of the above.: 23
+sochx:
+  highestEduc:
+    - What is the patient's highest level of education?
+    - 2
+    - did not graduate high school: 0
+      high school, some college: 1
+      college graduate: 2
+      master's degree or equivalent: 3
+      professional degree (MD, PhD, or equivalent): 4
+      other: 5
+  gradeType:
+    - What kinds of grades did the patient get in school?
+    - 2
+    - mostly Ds and Fs: 0
+      mostly Cs: 1
+      mostly Bs: 2
+      mostly As: 3
+      other: 4
+  specEdYN:
+    - Did the patient ever get any special education or tutoring?
+    - 3
+  devMilesYN:
+    - Did he/she meet all developmental milestones, like walking and talking at the
+      expected age?
+    - 3
+  profType:
+    - In what profession has he/she worked for most of life?
+    - 1
+  houseMate:
+    - With whom, if anyone, does the patient live? Please list the relationship as
+      well as the name, e....
+    - 1
+  supportLocal:
+    - Does the patient have many friends or family in the area?
+    - 3
+  exerciseHours:
+    - How much exercise does the patient get in an average week?
+    - 2
+    - None at all: 0
+      Less than one hour: 1
+      Between one to three hours: 2
+      Between three to five hours: 3
+      More than five hours: 4
+  hazard:
+    - To your knowledge, was the patient ever exposed to toxins or similar environmental
+      hazards?
+    - 2
+    - Definitely not: 0
+      Probably not: 1
+      Might or might not: 2
+      Probably yes: 3
+      Definitely yes: 4
+  gunNum:
+    - How many guns are in the house?
+    - 2
+    - none: 0
+      one: 1
+      two or more: 2
+  gunSecure:
+    - Are all guns securely stored?
+    - 3
+memory:
+  ecogMem:
+    - memRecent: Remembering things that happened recently (such as recent outings,
+        events in the news).
+      memConv: Recalling conversations a few days later.
+      memMisplace: Remembering where she/he has placed objects
+      memRepetit: Repeating stories, questions and/or statements.
+      memDate: Remembering the current date or day of the week
+      memTold: Remembering he/she has already told someone something
+      memAppoint: Remembering appointments, meetings or engagements
+      memShop: Remembering a few shopping items without a list
+      memRemote: Remembering significant events that happened several years ago.
+      memMonYr: Do they forget the correct month or year?
+    - 5
+    - ecogMemNone: &id001
+        - Better or no change
+        - 0
+      ecogMemOcc:
+        - Questionable/occasionally worse
+        - 1
+      ecogMemMod: &id002
+        - Consistently a little worse
+        - 2
+      ecogMemSev: &id003
+        - Consistently much worse
+        - 3
+      ecogMemDunno: &id004
+        - Don't know
+        - 0
+  memStart:
+    - When did problems with memory begin? Please type an approximate month and year.
+    - 1
+  memLimit:
+    - To what extent, if any, have memory problems limited the patient's abilities
+      to live and function...
+    - 2
+    - No memory problems are present.: 0
+      Some memory  problems are noted, but normal activities and social interactions can be carried out independently.: 1
+      There are some evident memory problems, but they only minimally interfere with normal activities and social interactions.: 2
+      ? There are some memory problems that interfere with normal activities and social
+        interactions, but do not ultimately prevent those activities and interactions
+        from being carried out.
+      : 3
+      Memory  problems are present and they prevent normal activities and social interactions from being carried out.: 4
+executive:
+  ecogExec:
+    - execPlanSeq: Planning the sequence of stops on a shopping trip.
+      execWeather: The ability to anticipate weather changes and plan accordingly
+        ( i.e. bring a coat or umbrella).
+      execSched: Developing a schedule in advance of anticipated events.
+      execThinkThru: Thinking things through before acting
+      execThinkAhead: Thinking ahead
+      execLifeOrg: Keeping living and work space organized.
+      execCheckbook: Balancing the checkbook without error
+      execFinance: Keeping financial records organized.
+      execPrioritize: Prioritizing tasks by importance.
+      execPaperOrg: Keeping mail and papers organized.
+      execMeds: Using an organized strategy to manage a medication schedule involving
+        multiple medications
+      execMultitask: The ability to do two things at once.
+      execTaskReturn: Returning to a task after being interrupted
+      execFocus: The ability to concentrate on a task without being distracted by
+        external things in the environment.
+      execMulti2: Cooking or working and talking at the same time.
+      execTech: Learning how to use a tool, appliance, or gadget (e.g. VCR, computer,
+        microwave, remote control)
+    - 5
+    - ecogExecNone: *id001
+      ecogExecOcc: &id005
+        - Questionable or occasional problems
+        - 1
+      ecogExecMod: *id002
+      ecogExecSev: *id003
+      ecogExecDunno: *id004
+  execJudge:
+    - Have there been problems with judgement (e.g. problems making decisions, bad
+      financial decisions,...
+    - 2
+    - No, no change: 0
+      Yes, a change: 1
+      N/A, don't know: 3
+  execStart:
+    - When did these problems with thinking begin? Please type an approximate month
+      and year.
+    - 1
+  execLimit:
+    - To what extent, if any, have these thinking problems limited the patient's abilities
+      to live and...
+    - 2
+    - None of these problems are present.: 0
+      Some problems are noted, but normal activities and social interactions can be carried out independently.: 1
+      There are some evident problems, but they only minimally interfere with normal activities and social interactions.: 2
+      ? There are some evident problems that interfere with normal activities and
+        social interactions, but do not ultimately prevent those activities and interactions
+        from being carried out.
+      : 3
+      Problems are present and they prevent normal activities and social interactions from being carried out.: 4
+language:
+  ecogLang:
+    - langName: Forgetting the names of objects
+      langInstrux: Verbally giving instructions to others
+      langWordFind: Finding the right words to use in a conversation
+      langCommThought: Communicating thoughts in a conversation.
+      langFollowStory: Following a story in a book or on TV
+      langGetPoint: Understanding the point of what other people are trying to say.
+      langWordComp: Remembering the meaning of common words
+      langDescStory: Describing a program he/she has watched on TV
+      langCompInstrux: Understanding spoken directions or instructions.
+    - 5
+    - ecogLangNone: *id001
+      ecogLangOcc: *id005
+      ecogLangMod: *id002
+      ecogLangSev: *id003
+      ecogLangDunno: *id004
+  langQualChange:
+    - Has there been a change in the quality of the patient's speech? Please select
+      all that apply.
+    - 4
+    - halting: 0
+      stammering: 1
+      stuttering: 2
+      quiet: 3
+      slurred: 4
+      hoarse: 5
+      unchanged: 6
+  langQualSevere:
+    - Over the past week, has the patient had problems with his/her speech?
+    - 2
+    - Not at all (no problems).: 0
+      His/her speech is soft, slurred or uneven, but it does not cause others to ask him/her to repeat him/herself.: 1
+      His/her speech causes people to ask him/her to occasionally repeat him/herself, but not every day.: 2
+      ? His/her speech is unclear enough that others ask him/her to repeat him/herself
+        every day even though most of his/her speech is understood.
+      : 3
+      Most or all of his/her speech cannot be understood.: 4
+  langRead:
+    - Has there been any change in the patient's ability to read, beyond failing to
+      remember what he/sh...
+    - 3
+  langWrite:
+    - Has there been a change in how well the patient is able to write? I don't mean
+      handwriting, but r...
+    - 3
+  langSpell:
+    - Has there been a decline in the patient's ability to spell words correctly?
+    - 3
+  langGrammar:
+    - Has there been a change in the patient's use of grammar?
+    - 3
+  langAmount:
+    - Is the patient generally speaking more or less than he/she used to, given an
+      opportunity?
+    - 2
+    - No change: 0
+      Less: 1
+      More: 2
+  langLimit:
+    - To what extent, if any, have language problems limited the patient's abilities
+      to live independen...
+    - 2
+    - No such language problems are present.: 0
+      Some language problems are noted, but normal activities and social interactions can be carried out independently.: 1
+      ? There are some evident language problems, but they only minimally interfere
+        with normal activities and social interactions.
+      : 2
+      ? There are some evident language problems that interfere with normal activities
+        and social interactions, but do not ultimately prevent those activities and
+        interactions from being carried out.
+      : 3
+      Language problems are present and they prevent normal activities and social interactions from being carried out.: 4
+  langStart:
+    - When did this trouble with language begin?  Please type an approximate month
+      and year.
+    - 1
+visuospatial:
+  ecogVisuosp:
+    - visuospMapNew: Following a map to find a new location
+      visuospMapDir: Reading a map and helping with directions when someone else is
+        driving
+      visuospCarLot: Finding one's car in a parking lot
+      visuospMeetSpot: Finding the way back to a meeting spot in the mall or other
+        location.
+      visuospFamPlace: Finding his/her way around a familiar neighborhood.
+      visuospFamStore: Finding his/her way around a familiar store.
+      visuospHouse: Finding his/her way around a house visited many times.
+    - 5
+    - ecogVisuospNone: *id001
+      ecogVisuospOcc: *id005
+      ecogVisuospMod: *id002
+      ecogVisuospSev: *id003
+      ecogVisuospDunno: *id004
+  visuospFamPeopleObj:
+    - Has the patient had trouble seeing things properly or difficulties recognizing
+      familiar people or...
+    - 3
+  visuospLimit:
+    - To what extent have problems with recognizing things or with getting lost limited
+      the patient's a...
+    - 2
+    - No problems with recognizing things or getting lost are present: 0
+      ? Some problems with recognizing things or getting lost are noted, but normal
+        activities and social interactions can be carried out independently.
+      : 1
+      ? There are some evident problems with recognizing things or getting lost, but
+        they only minimally interfere with normal activities and social interactions.
+      : 2
+      ? There are some evident problems with recognizing things or getting lost that
+        interfere with normal activities and social interactions, but do not ultimately
+        prevent those activities and interactions from being carried out.
+      : 3
+      ? Problems with recognizing things or getting lost are present and they prevent
+        normal activities and social interactions from being carried out.
+      : 4
+  visuospStart:
+    - When did difficulty with recognizing things and/or finding his/her way around
+      begin? Please type...
+    - 1
+motor:
+  slownessInit:
+    - Have slowness in initiating and maintaining movement or have frequent hesitations
+      or pauses during movement?
+    - 3
+  rigidityMotion:
+    - Have rigidity (with or without cog wheeling) on passive range of motion in any
+      of the 4 extremities)
+    - 3
+  lossPostStability:
+    - Have a loss of postural stability (balance) with or without frequent falls?
+    - 3
+  restTremor:
+    - Have a tremor at rest in any of the 4 extremities or head?
+    - 3
+  moveFall:
+    - Has he/she fallen?
+    - 3
+  moveFallCaution:
+    - Does the patient have any precautions to prevent falls in the house, such as
+      grab bars in the sho...
+    - 3
+  moveWeak:
+    - Does he/she have muscle weakness?  I do not mean fatigue where he/she might
+      feel tired. I mean in...
+    - 3
+  moveFine:
+    - Has the patient had a hard time using his/her hands to do such fine movements,
+      like those require...
+    - 3
+  moveSwallow:
+    - Over the last week, has the patient had problems swallowing pills or eating
+      meals? Does he/she ne...
+    - 2
+    - There are no problems.: 0
+      ? He/she is aware of slowness in his/her chewing or increased effort at swallowing,
+        but does not choke or need to have food specially prepared.
+      : 1
+      ? He/she needs to have  pills cut or food specially prepared because of chewing
+        or swallowing problems, but he/she has not choked over the past week.
+      : 2
+      He/she choked at least once in the past week.: 3
+      Because of chewing and swallowing problems,he/she needs a feeding tube.: 4
+sensation:
+  senseSev:
+    - Now I'd like to ask some questions about sensations like touch, sight, smell
+      and hearing. Has the...
+    - 2
+    - No sensory problems are present: 0
+      Some sensory problems are noted, but normal activities and social interactions can be carried out independently.: 1
+      There are some evident sensory problems, but they only minimally interfere with normal activities and social interactions.: 2
+      ? There are some evident sensory problems that interfere with normal activities
+        and social interactions, but do not ultimately prevent those activities and
+        interactions from being carried out.
+      : 3
+      Sensory problems are present and they prevent normal activities and social interactions from being carried out.: 4
+  senseNumb:
+    - Does he/she have any numbness or tingling?
+    - 3
+  sensePain:
+    - Over the past week, has he/she had uncomfortable feelings in his/her body like
+      pain, aches, tingl...
+    - 2
+    - No uncomfortable feelings.: 0
+      He/she has these feelings. However, he/she can do things and be with other people without difficulty.: 1
+      These feelings cause some problems when he/she does things or am with other people.: 2
+      These feelings cause a lot of problems, but they do not stop him/her from doing things or being with other people.: 3
+      These feelings stop him/her from doing things or being with other people.: 4
+  senseHearYN:
+    - Does he/she have any difficulty hearing?
+    - 3
+  senseSight:
+    - Does he/she have any difficulty seeing not easily correctable by glasses?
+    - 4
+    - false: 0
+      maybe: 1
+      he/she has double vision sometimes or all the time.: 2
+      he/she has blurry vision sometimes or all the time, even with glasses on.: 3
+      he/she has things appear in his/her vision that aren't really there, like dots or lines.: 4
+      his/her vision problems are not described above.: 5
+  senseSmell:
+    - Does he/she have any problems with smell or taste?
+    - 4
+    - false: 0
+      maybe: 1
+      he/she doesn't smell things as well as he/she used to: 2
+      he/she doesn't taste things as well as he/she used to: 3
+autonomic:
+  autoFaint:
+    - In the last week, has the patient felt faint, dizzy or foggy when he/she stands
+      up after sitting...
+    - 2
+    - There are no dizzy or foggy feelings.: 0
+      Dizzy or foggy feelings occur. However, they do not cause troubles doing things.: 1
+      Dizzy or foggy feelings cause him/her to hold on to something, but he/she does not need to sit or lie back down.: 2
+      Dizzy or foggy feelings cause him/her to sit or lie down to avoid fainting or falling.: 3
+      Dizzy or foggy feelings cause him/her to fall or faint.: 4
+  autoFatigue:
+    - In the last week, has he/she felt fatigued? This is not part of being sleepy
+      or sad.
+    - 2
+    - There is no fatigue.: 0
+      Fatigue occurs. However it does not cause him/her troubles doing things or being with people.: 1
+      Fatigue causes him/her some troubles doing things or being with people.: 2
+      ? Fatigue causes him/her a lot of troubles doing things or being with people.
+        However, it does not stop him/her from doing anything.
+      : 3
+      Fatigue stops him/her from doing things or being with people.: 4
+  autoUrinIncont:
+    - In the last week, has he/she had trouble with urine control?  For example a
+      need to urinate, a ne...
+    - 2
+    - There are no urine control problems.: 0
+      ? He/she needs to urinate often or urgently. However, these problems do not
+        cause difficulties with his/her daily activities.
+      : 1
+      Urine problems cause some difficulties with his/her daily activities. However, he/she does not have urine accidents.: 2
+      Urine problems causes a lot of difficulties with daily activities, including urine accidents.: 3
+      He/she cannot control his/her urine and uses a protective garment or has a bladder tube.: 4
+  autoBowelIncont:
+    - In the last month, has he/she had incontinence of bowel?
+    - 3
+behavioral:
+  npiq:
+    - behDel: 'Delusions: Does the patient have false beliefs, such as thinking that
+        others are stealing from him/her or planning to harm him/her in some way?'
+      behHal: 'Hallucinations: Does the patient have hallucinations such as false
+        visions or voices? Does he or she seem to hear or see things that are not
+        present?'
+      behAgit: 'Agitation or Aggression: Is the patient resistive to help from others
+        at times, or hard to handle?'
+      behDepress: 'Depression or Dysphoria: Does the patient seem sad or say that
+        he/she is depressed?'
+      behAnx: 'Anxiety: Does the patient become upset when separated from you? Does
+        he/she have any other signs of nervousness such as shortness of breath, sighing,
+        being unable to relax, or feeling excessively tense?'
+      behEuphoria: 'Elation/Euphoria: Does the patient appear to feel too good or
+        act excessively happy?'
+      behApathy: 'Apathy/Indifference: Does the patient seem less interested in his/her
+        usual activities or in the activities and plans of others? Is there less interest
+        in hobbies/activities?'
+      behDisinhibit: "Disinhibition: Does the patient seem to act impulsively, of\
+        \ example, talking to strangers as if he/she knows them, or saying things\
+        \ that may hurt people's feelings?"
+      behIrritable: 'Irritability/Lability: Is the patient impatient and cranky? Does
+        he/she have difficulty coping with delays or waiting for planned activities?'
+      behMotorDis: Motor Disturbance; Does the patient engage in repetitive activities
+        such as pacing around the house, handling buttons, wrapping string, or doing
+        other things repeatedly?
+      behNightProb: 'Nighttime Behaviors: Does the patient awaken you during the night,
+        rise too early in the morning, or take excessive naps during the day?'
+      behEatChange: 'Appetite/Eating: Has the patient lost or gained weight, or had
+        a change in the type of food he/she likes?'
+    - 5
+    - npiqNone: &id006
+        - Not present
+        - 0
+      npiqMild:
+        - Present, and mild (noticeable, but not a significant change)
+        - 1
+      npiqMod:
+        - Present, and moderate (significant, but not a dramatic change)
+        - 2
+      npiqSev:
+        - Severe (very marked or prominent; a dramatic change)
+        - 3
+  behEmoLabile:
+    - Has the patient been more emotional than usual, for example laughing or crying
+      more easily?
+    - 3
+  behPassiveSI:
+    - Has the patient ever wished he/she were dead or wished he/she could go to sleep
+      and not wake up?
+    - 3
+  behActSI:
+    - Has the patient ever actually had any thoughts of killing him/herself?
+    - 3
+  behCompulse:
+    - Has the patient had unusually strong urges that are hard to control? Does he/she
+      feel driven to d...
+    - 2
+    - No problems are present.: 0
+      Problems are present but usually do not cause any difficulties for the patient or his/her family/caregiver.: 1
+      Problems are present and usually cause a few difficulties in his/her personal and family life.: 2
+      Problems are present and usually cause a lot of difficulties in his/her personal and family life: 3
+      ? Problems are present and preclude or stop his/her ability to carry out normal
+        activities or social interactions or to maintain previous standards in personal
+        and family life.
+      : 4
+  behInapprop:
+    - Has there been any new socially inappropriate behavior or loss of previous decorum?
+    - 3
+  behOralFix:
+    - Is there any new fascination with putting things in the mouth, whether edible
+      or not?
+    - 3
+  behReligChange:
+    - Is there any change in religious practice or new ritualistic behaviors?
+    - 3
+  behIntimacyChange:
+    - Has there been any change in his/her sexual practice or level of intimacy?
+    - 3
+  behHygieneChange:
+    - Have there been any change in personal hygiene?
+    - 3
+  behViolent:
+    - Has the patient ever been threatening or physically violent, or had serious
+      thoughts of harming o...
+    - 3
+  readEmoEyes:
+    - The patient is often able to correctly read people's true emotions through the
+      eyes.
+    - 2
+    - Certainly, always false: 1
+      Generally false: 2
+      Somewhat false, but with exceptions: 3
+      Somewhat true, but with exceptions: 4
+      Generally true: 5
+      Certainly, always true: 6
+  detectFaceExp:
+    - In conversations the patient is sensitive to even the slightest change in the
+      facial expression o...
+    - 2
+    - Certainly, always false: 1
+      Generally false: 2
+      Somewhat false, but with exceptions: 3
+      Somewhat true, but with exceptions: 4
+      Generally true: 5
+      Certainly, always true: 6
+  understandingOthers:
+    - The patient's powers of intuition are quite good when it comes to understanding
+      others
+    - 2
+    - Certainly, always false: 1
+      Generally false: 2
+      Somewhat false, but with exceptions: 3
+      Somewhat true, but with exceptions: 4
+      Generally true: 5
+      Certainly, always true: 6
+  detectJokeTaste:
+    - The patient can tell when others consider a joke in bad taste, though they may
+      laugh convincingly.
+    - 2
+    - Certainly, always false: 1
+      Generally false: 2
+      Somewhat false, but with exceptions: 3
+      Somewhat true, but with exceptions: 4
+      Generally true: 5
+      Certainly, always true: 6
+  detectInappropriate:
+    - The patient can usually tell when he/she said something inappropriate by reading
+      it in the listen...
+    - 2
+    - Certainly, always false: 1
+      Generally false: 2
+      Somewhat false, but with exceptions: 3
+      Somewhat true, but with exceptions: 4
+      Generally true: 5
+      Certainly, always true: 6
+  detectLying:
+    - If someone is lying to the patient, he/she usually knows it at once from that
+      person's manner or...
+    - 2
+    - Certainly, always false: 1
+      Generally false: 2
+      Somewhat false, but with exceptions: 3
+      Somewhat true, but with exceptions: 4
+      Generally true: 5
+      Certainly, always true: 6
+  behLimit:
+    - To what extent have problems with the patient's personality, mood or behavior
+      limited his/her abi...
+    - 2
+    - No such personality, mood or behavior problems are present: 0
+      ? Some personality, mood or behavior problems are noted, but normal activities
+        and social interactions can be carried out independently.
+      : 1
+      ? There are some evident personality, mood or behavior problems, but they only
+        minimally interfere with normal activities and social interactions.
+      : 2
+      ? There are some evident personality, mood or behavior problems that interfere
+        with normal activities and social interactions, but do not ultimately prevent
+        those activities and interactions from being carried out.
+      : 3
+      ? Personality, mood or behavior problems are present and they prevent normal
+        activities and social interactions from being carried out.
+      : 4
+  behStart:
+    - When did these problems with behavior begin? Please give an approximate month
+      and year.
+    - 1
+  gad7:
+    - behGADAnx: Feeling nervous, anxious or on edge
+      behGADFear: Feeling afraid as if something bad was going to happen
+      behGADIrrit: Becoming easily annoyed or irritable
+      behGADNoRelax: Trouble relaxing
+      behGADNoStop: Not being able to stop or control worrying
+      behGADRestless: Being so restless that it's hard to sit still
+      behGADWorr: Worrying too much about different things
+    - 5
+    - gad7None:
+        - Not at all
+        - 0
+      gad7Mild:
+        - Several days
+        - 1
+      gad7Mod:
+        - Over half the days
+        - 2
+      gad7Sev:
+        - Nearly every day
+        - 3
+  phq:
+    - behPHQApathy: Little interest or pleasure in doing things
+      behPHQBad: Feeling bad about yourself-- or that you are a failure or have let yourself or your family down.
+      behPHQConc: Trouble concentrating on things, such as reading the newspaper or watching television.
+      behPHQDown: Feeling down, depressed or hopeless
+      behPHQEat: Poor appetite or overeating
+      behPHQMotor: Moving or speaking so slowly that other people could have noticed? or the opposite-- being so fidgety or restless that you have been moving around a lot more than usual
+      behPHQSI: Thoughts that you would be better off dead or of hurting yourself in some way.
+      behPHQSleep: Trouble falling or staying asleep, or sleeping too much
+      behPHQTired: Feeling tired or having little energy
+    - 5
+    - phqNone:
+        - Not at all
+        - 0
+      phqMild:
+        - Several days
+        - 1
+      phqMod:
+        - Over half the days
+        - 2
+      phqSev:
+        - Nearly every day
+        - 3
+sleep:
+  sleepInsomnia:
+    - Has the patient had trouble going to sleep at night or staying asleep through
+      the night? Consider...
+    - 2
+    - No problems.: 0
+      Sleep problems are present but usually do not cause trouble getting a full night of sleep.: 1
+      Sleep problems usually cause some difficulties getting a full night of sleep.: 2
+      ? Sleep problems cause a lot of difficulties getting a full night of sleep,
+        but he/she still usually sleeps for more than half the night.
+      : 3
+      He/she usually does not sleep for most of the night.: 4
+  sleepEDS:
+    - Has he/she had trouble staying awake during the daytime?
+    - 2
+    - No daytime sleepiness.: 0
+      Daytime sleepiness occurs but he/she can resist and stay awake.: 1
+      Sometimes he/she falls asleep when alone and relaxing. For example, while reading or watching TV.: 2
+      He/she sometimes falls asleep when he/she should not. For example, while eating or talking with other people.: 3
+      He/she often falls asleep when he/she should not. For example, while eating or talking with other people.: 4
+  epworth:
+    - sleepSitRead: Sitting and reading
+      sleepTV: Watching TV
+      sleepInact: Sitting inactive in a public place (e.g., a theater or a meeting)
+      sleepCarPass: As a passenger in a car for an hour without a break
+      sleepLayDown: Lying down to rest in the afternoon when circumstances permit
+      sleepSitTalk: Sitting and talking to someone
+      sleepSitLunch: Sitting quietly after a lunch without alcohol
+      sleepCarDriv: In a car, while stopped for a few minutes in traffic
+    - 5
+    - epworthNone:
+        - No chance of dozing
+        - 0
+      epworthMild:
+        - Slight chance of dozing
+        - 1
+      epworthMod:
+        - Moderate chance of dozing
+        - 2
+      epworthSev:
+        - High chance of dozing
+        - 3
+  sleepNap:
+    - Between getting up in the morning and going to bed at night, how much of the
+      day does he/she spen...
+    - 2
+    - Not at all: 0
+      Less than one hour: 1
+      Between one to two hours: 2
+      Between two to three hours: 3
+      More than or equal to three hours: 4
+  sleepDrowsy:
+    - How often is he/she drowsy and lethargic during the day, despite getting the
+      usual amount of slee...
+    - 2
+    - Not at all: 0
+      Less than one hour: 1
+      Between one to two hours: 2
+      Between two to three hours: 3
+      More than or equal to three hours: 4
+  sleepDiffArouse:
+    - Overall, how would you rate his/her level of consciousness on a usual day?
+    - 2
+    - Mostly alert: 0
+      Drowsy but very easy to arouse: 1
+      Drowsy but moderately easy to arouse: 2
+      Drowsy but difficult to arouse: 3
+      Mostly asleep: 4
+  sleepSnore:
+    - Does the patient snore?
+    - 3
+  sleepOSA:
+    - Is there any witnessed sleep apnea (does he/she stop breathing for brief periods
+      in his/her sleep...
+    - 3
+  sleepParasom:
+    - Does he/she have any of the following unusual activities while sleeping?
+    - 4
+    - false: 0
+      maybe: 1
+      sleep walking: 2
+      talking in his/her sleep: 3
+  sleepRSBD:
+    - Has the patient ever been told, or suspected his/herself, that he/she seems
+      to act out his/her dr...
+    - 3
+functional:
+  FAQ:
+    - FAQcheck: Writing checks, paying bills, or balancing a checkbook
+      FAQtax: Assembling tax records, business affairs, or other papers
+      FAQshop: Shopping alone for clothes, household necessities, or groceries
+      FAQhobby: Playing a game of skill such as bridge or chess, working on a hobby
+      FAQheat: Heating water, making a cup of coffee, turning off the stove
+      FAQmeal: Preparing a balanced meal
+      FAQnews: Keeping track of current events
+      FAQmedia: Paying attention to and understanding a TV program, book or magazine
+      FAQremember: Remembering appointments, family occasions, holidays, medications
+      FAQtransit: Traveling out of the neighborhood, driving, or arranging to take
+        public transportation.
+    - 5
+    - FAQna:
+        - Not applicable (e.g. never did)
+        - 0
+      FAQnl:
+        - Normal
+        - 0
+      FAQmild:
+        - Has difficulty, but does by self
+        - 1
+      FAQmod:
+        - Requires Assistance
+        - 2
+      FAQsev:
+        - Dependent on others
+        - 3
+      FAQdk:
+        - Unknown
+        - 0
+  ADL:
+    - adlEat: Eating
+      adlToilet: Toileting
+      adlBath: Bathing (sponge, shower, or tub)
+      adlDress: Dressing
+      adlGroom: Grooming (combing, shampooing hair, shaving, trimming nails)
+      adlTransfer: Transferring
+    - 5
+    - adlNone:
+        - Needs no assistance or supervision
+        - 0
+      adlMod:
+        - Needs some assistance or supervision
+        - 1
+      adlSev:
+        - Totally dependent / cannot do at all.
+        - 2
+  adlDrive:
+    - Is he/she driving now? Answer yes if he/she drives at all, even if rarely or
+      short distances.
+    - 3
+  adlMVA:
+    - Has the patient had any driving accidents?
+    - 3
+  adlHomeSafe:
+    - Have there been any safety concerns at home, such as leaving water running,
+      wandering off and get...
+    - 3
+caregiverstress:
+  zarit:
+    - careMeTime: That because of the time you spend with your relative that you don't
+        have enough time for yourself?
+      careStress: Stressed between caring for your relative and trying to meet other
+        responsibilities (work/family)?
+      careAnger: Angry when you are around your relative?
+      careRelative: That your relative currently affects your relationship with family
+        members or friends in a negative way?
+      careStrain: Strained when you are around your relative?
+      careHealth: That your health has suffered because of your involvement with your
+        relative?
+      carePrivacy: That you don't have as much privacy as you would like because of
+        your relative?
+      careSoc: That your social life has suffered because you are caring for your
+        relative?
+      careControl: That you have lost control of your life since your relative's illness?
+      careUncertain: Uncertain what to do about your relative?
+      careDoMore: You should be doing more for your relative?
+      careBetter: You could do a better job in caring for your relative?
+    - 5
+    - zaritNone:
+        - never
+        - 0
+      zaritMin:
+        - rarely
+        - 1
+      zaritMild:
+        - sometimes
+        - 2
+      zaritMod:
+        - quite frequently
+        - 3
+      zaritSev:
+        - nearly always
+        - 4
+  npiqCaregiver:
+    - npicareDelusion: 'Delusions: Does the patient have false beliefs, such as thinking
+        that others are stealing from him/her or planning to harm him/her in some
+        way?'
+      npicareHal: 'Hallucinations: Does the patient have hallucinations such as false
+        visions or voices? Does he or she seem to hear or see things that are not
+        present?'
+      npicareAgitate: 'Agitation or Aggression: Is the patient resistive to help from
+        others at times, or hard to handle?'
+      npicareDep: 'Depression or Dysphoria: Does the patient seem sad or say that
+        he/she is depressed?'
+      npicareAnx: Does the patient become upset when separated from you? Does he/she
+        have any other signs of nervousness such as shortness of breath, sighing,
+        being unable to relax, or feeling excessively tense?
+      npicareMania: Does the patient appear to feel too good or act excessively happy?
+      npicareApathy: Does the patient seem less interested in his/her usual activities
+        or in the activities and plans of others?
+      npicareImpulse: Does the patient seem to act impulsively, for example, talking
+        to strangers as if he/she knows them, or saying things that may hurt people's
+        feelings?
+      npicareIrrit: Is the patient impatient and cranky? Does he/she have difficulty
+        coping with delays or waiting for planned activities?
+      npicareRepAct: Does the patient engage in repetitive activities such as pacing
+        around the house, handling buttons, wrapping string, or doing other things
+        repeatedly?
+      npicareNocAct: Does the patient awaken you during the night, rise too early
+        in the morning, or take excessive naps during the day?
+      npicareAppChange: Has the patient lost or gained weight, or had a change in
+        the type of food he/she likes?
+    - 5
+    - npiCareNP: *id006
+      npiCareNone:
+        - not distressing at all
+        - 0
+      npiCareRare:
+        - minimal (slightly distressing, not a problem to cope with)
+        - 1
+      npiCareMild:
+        - mild (not very distressing, generally easy to cope with)
+        - 2
+      npiCareMod:
+        - moderate (fairly distressing, not always easy to cope with)
+        - 3
+      npiCareSev:
+        - severe (very distressing, difficult to cope with)
+        - 4
+      npiCareExt:
+        - extreme or very severe (extremely distressing, unable to cope with)
+        - 5
